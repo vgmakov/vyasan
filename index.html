@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
@@ -8,93 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        .page {
-            width: 1000px;
-            margin: 0 auto;
-            font-family: 'PT Sans', sans-serif;
-        }
-        .header {
-            display: flex;
-        }
-        .header_menu {
-            display: flex;
-        }
-        .header_list
-        {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-            font-family: 'PT Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 26px;
-
-        }
-
-        .header_logo 
-        {
-            margin-right: 30px;
-        }
-        .title {
-            display: flex;
-            font-family: 'PT Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 45px;
-            line-height: 52px;
-            margin: 0;
-            padding-bottom: 10px;
-            justify-content: center
-}
-        .text
-        {   
-            display: flex;
-            
-            width: 851px;
-            height: 57px;
-
-            font-family: 'PT Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 23px;
-            text-align: center;
-            letter-spacing: 0.015em;
-        }
-
-        .grey {
-
-        }
-
-        .orange {
-
-        }
-
-        .images {
-            display: flex;
-
-
-        }
-
-        .wh_logo
-        {
-            display: flex;
-            width: 40px;
-            height: 40px;
-            margin-right: ;
-        }
-        .tg_logo
-        {
-            display: flex; 
-            width: 40px;
-            height: 40px;
-        }
-    </style>
+    
     <title>Document</title>
 </head>
 <body class="page">
@@ -102,22 +17,29 @@
         <img class="header_logo" src="./img/logo_vyazan.png"
         <nav class="header_menu">
             <ul class="header_list">
-                <li>Все коллекции </li>
-                <li>О нас</li>
-                <li>Контакты</li>
-                <li>Проверить заказ</li>
-                <li> <img class="wh_logo" src="./img/whatsapp.png"> </li>
-                <li> <img class="tg_logo" src="./img/graph.png"> </li>
+                <li> <a class="href" href="/index.html">Все коллекции</a> </li>
+                <li><a class="href" href="/index.html">О нас</a></li>
+                <li><a class="href" href="/index.html">Контакты</a></li>
+                <li><a class="href" href="/index.html">Проверить заказ</a></li>
+                
                 
             </ul>
-        </nav>
-    
-        <div>
-
+          <div class="mess_logo">  <a href="/index.html"><img class="wh_logo" src="./img/whatsapp.png"></a>
+        <a href="./index.html"><img class="tg_logo" src="./img/graph.png"> </a>
         </div>
+        </nav>
+        
     </header>
     <main>
-       <h2 class="title">Свитера, как у канадских лесорубов</h2> 
+        <div> <h1 class="zag" align="center">Не колючая мужская одежда из шерсти мериносов </h1> </div>
+            <p class="zag2"> коллекция 22/23 </p>
+
+<img class="sheep" src="./img/ovci.png">
+
+<p class="main_text">
+    Дизайнеры и технологи «Вязани» вдохновились искателями приключений и минималистичным дизайном. Все вещи связаны из шерсти тонкорунных овец-мериносов. Поэтому, не раздражают кожу, даже если надеть ее на голое тело. </p>
+
+       <h2 class="title_2">Свитера, как у канадских лесорубов</h2> 
        <div class="text"> Не дадут замерзуть в лесной хижине, не позволят вспотеть 
         в офисе. Усиленные рукава не вытягиваются и не вздуваются пузырями на локтях.</div>
        
@@ -126,8 +48,17 @@
         </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <ul class="footer_list">
+            <li>ООО « Вязань»</li>
+           <li> ул. Улюкаева, д.6 стр. 48 </li>
+           <li> +7 (455) 67–76–89 </li>
+            </ul>
+        <div class="bottom_logo">
+            <a href="/index.html"><img class="vk_logo" src="./img/vk.png"></a>
+            <a href="/index.html"><img class="wh_logo" src="./img/whatsapp.png"></a>
+        <a href="./index.html"><img class="tg_logo" src="./img/graph.png">
+        </div>
     </footer>
 </body>
 </html>

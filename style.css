@@ -1,0 +1,172 @@
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.header {
+    display: flex;
+}
+.header_menu {
+    display: flex;
+}
+.header_list
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.header_logo 
+{
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.title_2 {
+    display: flex;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+margin-left: 176px;
+margin-bottom: 7px;
+}
+.text
+{   
+    display: flex;
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-bottom: 33px;
+}
+
+
+.images {
+    display: flex;
+
+
+}
+
+.wh_logo
+{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.tg_logo
+{
+    display: flex; 
+    width: 40px;
+    height: 40px;
+    margin-right: 55px;
+}
+
+.mess_logo {
+    display: flex; 
+    margin-left: auto;
+    align-items: center;
+}
+
+.href
+{
+    color: black; 
+    text-decoration: none;
+}
+
+.zag
+{
+display: flex; 
+
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 47px; 
+margin-bottom: 0;
+padding-left: 146px;
+padding-right: 115px;
+margin-top: 53px;
+} 
+
+.zag2
+{         display: flex; 
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;    
+padding-left: 383px;
+border: 0;
+margin-top: 9px;
+margin-bottom: 34px;
+}
+.sheep
+{
+display: flex; 
+width: 1000px;
+    height: 347px;
+}
+
+.main_text {
+display: flex; 
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.015em;
+padding-left: 101px;
+padding-right: 101px;
+}
+.footer_list
+{
+display: flex; 
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+list-style: none;
+flex-direction: column;
+width: 100%; }
+
+.footer {
+    display: flex; 
+
+ background-color: #E2E2E2;
+ padding-top: 19px;
+ padding-left: 59px;
+ padding-bottom: 19px;
+}
+.bottom_logo
+{
+display: flex; 
+margin-top: 30px;
+justify-content: flex-end;
+align-items: center;
+}
+.vk_logo {
+display: flex; 
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    
+}
